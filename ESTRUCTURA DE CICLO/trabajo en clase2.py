@@ -1,3 +1,4 @@
+## ejercicio dos sobre la edad con while
 condicion=True
 while condicion==True:
     EDAD=int(input("ingresa su edad"))
