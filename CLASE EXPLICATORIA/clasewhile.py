@@ -6,7 +6,7 @@ while condicion==True:
     print("este es tu ",intentos,"intentos")
     newcontraseña=input("ingresa la contraseña correcta:")
     if newcontraseña==contraseña:
-        print("bienvenido al sistema joven")
+        print("bienvenido al sistema joven ilustre")
         condicion=False
     else:
         print("contraseña incorrecta sigue intentando")
