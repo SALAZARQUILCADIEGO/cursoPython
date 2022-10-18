@@ -4,6 +4,7 @@
 ## cuando la condicion es falsa.
 
 ## ejemplo
+nota = 50
 if nota >= 60:
    print ("Aprobado")
 else:
@@ -15,7 +16,7 @@ elif nota >= 80:
    print ("B")
 elif nota >= 70:
    print ("C")
-elif Nota >= 60:
+elif nota >= 60:
    print ("D")
 else:
   print ("F")
