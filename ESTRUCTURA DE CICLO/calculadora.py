@@ -35,8 +35,6 @@
 #         print("Opción incorrecta")
 
 ## calculadora con match
-n1 = float(input("Introduce tu primer número: ") )
-n2 = float(input("Introduce tu segundo número: ") )
 
 opcion = 0
 while True:
@@ -49,7 +47,9 @@ while True:
     4) dividir
     5) salir
     """)
-    opcion =(input("Elige una opción: ") )     
+    opcion =(input("Elige una opción: ") )   
+    n1 = float(input("Introduce tu primer número: ") )
+    n2 = float(input("Introduce tu segundo número: ") ) 
 
     match opcion:
         case "1":
