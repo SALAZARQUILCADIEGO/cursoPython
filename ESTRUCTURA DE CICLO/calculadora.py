@@ -66,4 +66,6 @@ while True:
             print("RESULTADO: la divicion de",n1,"*",n2,"es igual a",n1/n2)
         case "5":
             break
+        case __:
+            print("esta opcion no existe")
 
