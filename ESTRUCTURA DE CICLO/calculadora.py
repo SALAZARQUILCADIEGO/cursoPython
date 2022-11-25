@@ -60,10 +60,10 @@ while True:
             print("RESULTADO: La resta de",n1,"-",n2,"es igual a",n1-n2)
         case "3":
             print(" ")
-            print("RESULTADO: La resta de",n1,"-",n2,"es igual a",n1*n2)
+            print("RESULTADO: La multiplicacion de",n1,"*",n2,"es igual a",n1*n2)
         case "4":
             print(" ")
-            print("RESULTADO: la divicion de",n1,"*",n2,"es igual a",n1/n2)
+            print("RESULTADO: la divicion de",n1,"/",n2,"es igual a",n1/n2)
         case "5":
             break
         case __:
