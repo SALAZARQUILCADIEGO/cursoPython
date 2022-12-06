@@ -20,19 +20,30 @@
 # print("El máximo es " + str(max))
 
 #escribir una funcion mas larga () que tome una array de palabras y devuelva la mas larga
-def mas_larga(lista):
-	palabra_mayor = len(lista[0])
-	palabra_mostrar = lista[0]
-	for palabra in lista:
-		if palabra_mayor <= len(palabra):
-			palabra_mostrar = palabra
-			palabra_mayor = len(palabra)
-		else:
-			palabra_mostrar = palabra_mostrar
-	print(palabra_mostrar)
-lista = ["diego", "salazar", "836352293 diego salazar"]
-mas_larga(lista)
+# def mas_larga(lista):
+# 	palabra_mayor = len(lista[0])
+# 	palabra_mostrar = lista[0]
+# 	for palabra in lista:
+# 		if palabra_mayor <= len(palabra):
+# 			palabra_mostrar = palabra
+# 			palabra_mayor = len(palabra)
+# 		else:
+# 			palabra_mostrar = palabra_mostrar
+# 	print(palabra_mostrar)
+# lista = ["diego", "salazar", "836352293 diego salazar"]
+# mas_larga(lista)
 
 #escribir un programa que reciba una cadena de caracteres y devuelva un diccionario con cada palabra que contiene
+def creador_dict(cadena):
+  lista_1 = cadena.split()
+  dict_1={}
+  for i in lista_1:
+    if i in dict_1:
+      dict_1[i] +=1
+    else:
+      dict_1[i]= 1
+  return dict_1
 
+entrada=input('Ingrese su cadena de caracteres: ')
+print(creador_dict(entrada))
  
